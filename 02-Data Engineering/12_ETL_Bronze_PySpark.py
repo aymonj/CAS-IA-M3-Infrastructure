@@ -7,7 +7,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE CATALOG levkiwi_lakehouse;
+# MAGIC USE CATALOG jeromeaymon_lakehouse;
 # MAGIC USE DATABASE bronze;
 
 # COMMAND ----------

@@ -4,7 +4,7 @@
 
 -- COMMAND ----------
 
-USE CATALOG levkiwi_lakehouse;
+USE CATALOG jeromeaymon_lakehouse;
 USE SCHEMA bronze;
 
 -- COMMAND ----------
@@ -58,7 +58,7 @@ UPDATE bronze.Address SET AddressID = 11383 WHERE AddressID = 1105;
 
 -- COMMAND ----------
 
-USE CATALOG levkiwi_lakehouse;
+USE CATALOG jeromeaymon_lakehouse;
 USE SCHEMA silver;
 
 SELECT * FROM address WHERE city = 'Bothell' ORDER BY address_id, _tf_valid_from

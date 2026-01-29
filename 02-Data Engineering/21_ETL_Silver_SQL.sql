@@ -6,7 +6,7 @@
 
 -- COMMAND ----------
 
-USE CATALOG levkiwi_lakehouse;
+USE CATALOG jeromeaymon_lakehouse;
 USE DATABASE silver;
 
 -- COMMAND ----------

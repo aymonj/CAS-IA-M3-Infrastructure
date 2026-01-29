@@ -7,9 +7,9 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC DROP DATABASE IF EXISTS levkiwi_lakehouse.bronze CASCADE;
-# MAGIC DROP DATABASE IF EXISTS levkiwi_lakehouse.silver CASCADE; 
-# MAGIC DROP DATABASE IF EXISTS levkiwi_lakehouse.gold CASCADE;
+# MAGIC DROP DATABASE IF EXISTS jeromeaymon_lakehouse.bronze CASCADE;
+# MAGIC DROP DATABASE IF EXISTS jeromeaymon_lakehouse.silver CASCADE; 
+# MAGIC DROP DATABASE IF EXISTS jeromeaymon_lakehouse.gold CASCADE;
 
 # COMMAND ----------
 
@@ -19,11 +19,11 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE CATALOG levkiwi_lakehouse;
+# MAGIC USE CATALOG jeromeaymon_lakehouse;
 # MAGIC
-# MAGIC CREATE DATABASE IF NOT EXISTS levkiwi_lakehouse.bronze;
-# MAGIC CREATE DATABASE IF NOT EXISTS levkiwi_lakehouse.silver;
-# MAGIC CREATE DATABASE IF NOT EXISTS levkiwi_lakehouse.gold;
+# MAGIC CREATE DATABASE IF NOT EXISTS jeromeaymon_lakehouse.bronze;
+# MAGIC CREATE DATABASE IF NOT EXISTS jeromeaymon_lakehouse.silver;
+# MAGIC CREATE DATABASE IF NOT EXISTS jeromeaymon_lakehouse.gold;
 # MAGIC
 
 # COMMAND ----------
